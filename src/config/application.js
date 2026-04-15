@@ -26,9 +26,9 @@ const appConfig = {
 
   bot: {
     ...botConfig,
-    token: process.env.MTQ5MzI5MDc4NzkyMzAzODQ1OQ.GE0QnA.GNRpqHhYBFgsbnlCzOh5wFla6brOs_4eUeHyCw || process.env.TOKEN,
-    clientId: process.env.1493290787923038459,
-    guildId: process.env.1493268405237579817,
+    token: process.env.DISCORD_TOKEN || process.env.TOKEN,
+    clientId: process.env.CLIENT_ID,
+    guildId: process.env.GUILD_ID,
 
     shop: {
       ...botConfig.shop,
