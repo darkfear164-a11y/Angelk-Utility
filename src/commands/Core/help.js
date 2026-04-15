@@ -157,7 +157,7 @@ async function createInitialHelpMenu() {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "coded and programmed by trapyrm" 
     });
     embed.setTimestamp();
 
