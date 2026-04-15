@@ -167,11 +167,7 @@ async function createInitialHelpMenu() {
         options,
     );
 
-    const buttonRow = new ActionRowBuilder().addComponents([
-        bugReportButton,
-        supportButton,
-        touchpointButton,
-    ]);
+   ]);
 
     return {
         embeds: [embed],
