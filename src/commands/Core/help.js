@@ -166,7 +166,12 @@ async function createInitialHelpMenu() {
         "Select to view the commands",
         options,
     );
-
+    
+  const buttonRow = new ActionRowBuilder().addComponents([
+        bugReportButton,
+        supportButton,
+        touchpointButton,
+      
    ]);
 
     return {
