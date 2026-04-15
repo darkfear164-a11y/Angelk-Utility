@@ -74,7 +74,7 @@ async function createInitialHelpMenu() {
 
     const embed = createEmbed({ 
         title: "🤖 Angelk Help Center",
-        description: "Your all-in-one Discord companion for moderation, economy, fun, and server management.",
+        description: "list of commands by the bot.",
         color: 'primary'
     });
 
